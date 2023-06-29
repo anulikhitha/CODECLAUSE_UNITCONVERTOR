@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ 
+    <meta name="description" content="Modern Unit Convertor" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- FAVICON -->
+    <link rel="icon" href="favicon-96x96.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!--CONNECTING LINKS -->
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script defer src="script.js"></script>
+
+    <title> UNIT CONVERTOR | Anu Likhitha </title>
+  </head>
+  <body>
+    <div class="container prevent-select">
+      <header class="header">
+        <h1 class="heading heading-primary heading--gradient">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MODERNIZED</h1>
+        <!-- <br /> -->
+        <h1 class="heading heading-primary bottom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unit Convertor</h1>
+        <!-- <nav class="main-nav"></nav> -->
+      </header>
+      <main>
+        <div>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <div>
+                <p class="adding-border button--length">📏 LENGTH</p>
+              </div>
+              <div>
+                <p class="adding-border button--temp"> 🌡️ TEMPERATURE</p>
+              </div>
+              <div>
+              <p class="adding-border button--area">🟨 AREA </p>
+              </div>
+              <div>
+                <p class="adding-border button--vol">📦 VOLUME</p>
+              </div>
+              <div>
+                <p class="adding-border button--weight">⚖️ WEIGHT</p>
+              </div>
+              <div>
+                <p class="adding-border button--time">⏰ TIME</p>
+              </div>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="option">
+
+           <!-- Length section started -->
+          <section class="units-option option--length option--inactive">
+            <section class="options">
+              <p class="units-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📏 Length Units :-</p>
+              <div class="menu">
+                <div class="menu menu--from">
+                  <label class="label-padding" for="from-unit">From :-</label>
+                  <select
+                    name="from-unit from-unit--length"
+                    id="from-unit--length">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Meter(m)</option>
+                    <option value="2">Kilometer(km)</option>
+                    <option value="3">Milimeter(mm)</option>
+                  </select>
+                </div>
+                <div class="menu menu--to">
+                  <label class="lable-padding" for="to-unit">To :-</label>
+                  <select 
+                    name="to-unit to-unit--length" 
+                    id="to-unit--length">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Meter(m)</option>
+                    <option value="2">Kilometer(km)</option>
+                    <option value="3">Milimeter(mm)</option>
+                  </select>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <!--Temperature section started-->
+          <section class="units-option option--temp option--inactive">
+            <section class="options">
+              <p class="units-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;🌡️ Temperature Units :-</p>
+              <div class="menu">
+                <div class="menu menu--from">
+                  <label class="label-padding" for="from-unit">From :-</label>
+                  <select name="from-unit from-unit--temp" id="from-unit--temp">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Celsius(&deg;C)</option>
+                    <option value="2">Kelvin(K)</option>
+                    <option value="3">Fahrenheit(&deg;F)</option>
+                  </select>
+                </div>
+                <div class="menu menu--to">
+                  <label class="lable-padding" for="to-unit">To :-</label>
+                  <select name="to-unit to-unit--length" id="to-unit--temp">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Celsius(&deg;C)</option>
+                    <option value="2">Kelvin(K)</option>
+                    <option value="3">Fahrenheit(&deg;F)</option>
+                  </select>
+                </div>
+              </div>
+            </section>
+          </section>
+        
+          <!--Area section started-->
+          <section class="units-option option--area option--inactive">
+            <section class="options">
+              <p class="units-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;🟨 Area Units :-</p>
+              <div class="menu">
+                <div class="menu menu--from">
+                  <label class="label-padding" for="from-unit">From :-</label>
+                  <select name="from-unit from-unit--area" id="from-unit--area">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Square Meter(m&sup2;)</option>
+                    <option value="2">Square Kilometer(km&sup2;)</option>
+                    <option value="3">Square Centimeter(cm&sup2;)</option>
+                  </select>
+                </div>
+                <div class="menu menu--to">
+                  <label class="lable-padding" for="to-unit">To :-</label>
+                  <select name="to-unit to-unit--area" id="to-unit--area">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Square Meter(m&sup2;)</option>
+                    <option value="2">Square Kilometer(km&sup2;)</option>
+                    <option value="3">Square Centimeter(cm&sup2;)</option>
+                  </select>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <!--Volume section started-->
+          <section class="units-option option--vol option--inactive">
+            <section class="options">
+              <p class="units-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;📦 Volume Units :-</p>
+              <div class="menu">
+                <div class="menu menu--from">
+                  <label class="label-padding" for="from-unit">From :-</label>
+                  <select name="from-unit from-unit--vol" id="from-unit--vol">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Cubic Meter(m&sup3;)</option>
+                    <option value="2">Cubic Kilometer(km&sup3;)</option>
+                    <option value="3">Cubic Centimeter(cm&sup3;)</option>
+                  </select>
+                </div>
+                <div class="menu menu--to">
+                  <label class="lable-padding" for="to-unit">To :-</label>
+                  <select name="to-unit to-unit--area" id="to-unit--vol">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Cubic Meter(m&sup3;)</option>
+                    <option value="2">Cubic Kilometer(km&sup3;)</option>
+                    <option value="3">Cubic Centimeter(cm&sup3;)</option>
+                  </select>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <!-- Weight section started -->
+          <section class="units-option option--weight option--inactive">
+            <section class="options">
+              <p class="units-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;⚖️ Weight Units :-</p>
+              <div class="menu">
+                <div class="menu menu--from">
+                  <label class="label-padding" for="from-unit">From :-</label>
+                  <select
+                    name="from-unit from-unit--weight"
+                    id="from-unit--weight"
+                  >
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Kilogram(kg)</option>
+                    <option value="2">Gram(g)</option>
+                    <option value="3">Miligram(mg)</option>
+                  </select>
+                </div>
+                <div class="menu menu--to">
+                  <label class="lable-padding" for="to-unit">To :-</label>
+                  <select name="to-unit to-unit--area" id="to-unit--weight">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Kilogram(kg)</option>
+                    <option value="2">Gram(g)</option>
+                    <option value="3">Miligram(mg)</option>
+                  </select>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <!-- Time section started -->
+          <section class="units-option option--time option--inactive">
+            <section class="options">
+              <p class="units-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;⏰ Time Units :-</p>
+              <div class="menu">
+                <div class="menu menu--from">
+                  <label class="label-padding" for="from-unit">From :-</label>
+                  <select name="from-unit from-unit--time" id="from-unit--time">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Second(s)</option>
+                    <option value="2">Minutes(min)</option>
+                    <option value="3">Hours(hr)</option>
+                  </select>
+                </div>
+                <div class="menu menu--to">
+                  <label class="lable-padding" for="to-unit">To :- </label>
+                  <select name="to-unit to-unit--area" id="to-unit--time">
+                    <option value="0">Select Unit :-</option>
+                    <option value="1">Second(s)</option>
+                    <option value="2">Minutes(min)</option>
+                    <option value="3">Hours(hrs)</option>
+                  </select>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <section class="inputs-result">
+            <p class="units-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;⌨️ Enter a value to convert :-</p>
+            <form class="values" name="unit-convert">
+              <div>
+                <label for="from-value">From :- </label>
+                <input id="from-value" type="number" placeholder="" />
+              </div>
+              <br />
+              <div>
+                <label for="to-value">To :- </label>
+                <input type="number" id="to-value" placeholder="" />
+              </div>
+              <button class="btn--submit">CONVERT</button>
+            </form>
+          </section>
+        </div>
+      </main>
+    </div>
+    <footer>
+    <p class="footer-details"> By Anu Likhitha Immadisetty</p>
+    <p class="footer-deails copyright">&copy;All rights reserved&nbsp;</p>
+    <p>CODE CLAUSE INTERNSHIP</p>
+    </footer>
+  </body>
+</html>
+

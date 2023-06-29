@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: "Comic Sans MS", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #999494;
+    overflow-x: hidden;
+  }
+  
+  
+  .contianer {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  }
+  
+  .grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+  }
+  
+  .grid:not(:last-child) {
+    margin-bottom: 9.6rem;
+  }
+  
+  .grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid--center-v {
+    align-items: center;
+  }
+  
+  .heading-primary,
+  .heading-secondary,
+  .heading-tertiary {
+    font-weight: 700;
+    letter-spacing: -0.4rem;
+  }
+  
+  .heading-primary {
+    font-size: 5.2rem;
+    margin-bottom: 3.2rem;
+  }
+  
+  .heading-secondary {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+  }
+  
+  .heading-tertiary {
+    font-size: 3rem;
+    line-height: 1.2rem;
+    margin-bottom: 3.2rem;
+  }
+  
